@@ -1,4 +1,11 @@
-import stramit as st
-st.set_page_config(Page_title = "About me", page_icon = '🤩', layout= 'centered')
+
+import streamlit as st
+
+st.set_page_config(
+    page_title="About me",
+    page_icon="🤩",
+    layout="centered"
+)
+
 st.title("likhith")
 st.caption("right here right now")
